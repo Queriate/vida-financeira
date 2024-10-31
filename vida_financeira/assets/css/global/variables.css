@@ -1,0 +1,12 @@
+:root {
+    --cor-1: #121419;
+    --cor-2: #ffffff;
+    --cor-3: #ADADAD;
+
+    --cor-4: #FF2E4C;
+    --cor-5: #592B6D; 
+}
+
+:root {
+    --linear-gradient: linear-gradient(to right, #FF2E4C, #592B6D);
+}  

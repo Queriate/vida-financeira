@@ -1,0 +1,20 @@
+    /* Importa a fonte */
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../../files/fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../../files/fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../../files/fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'font-sist';
+    src: url('../../files/fonts/eras-itc-demi.ttf');
+}
