@@ -1,44 +1,56 @@
 
 .container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: .3rem;
   width: 100%;
-  max-width: 400px;
+  max-width: 40rem;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+  font-family:'poppins-regular';
 }
 
 h1 {
-  color: #333;
-  margin-bottom: 16px;
+  color: var(--cor-2);
+  font-size: clamp(1rem, 1.6dvw, 1.6rem);
+  margin: 0 0 1rem 0;
+}
+
+p {
+  color: var(--cor-2);
+  font-size: clamp(.5rem, 1dvw, 1rem);
 }
 
 input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 16px;
+  padding: 1rem;
+  margin: 0 0 1rem 0;
+  border: none;
+  border-radius: .3rem;
+  font-size: clamp(1rem, 1.6dvw, 1.6rem);
+}
+
+input:focus {
+  outline: transparent;
 }
 
 button {
   width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  color: #fff;
-  background-color: black;
+  padding: 1rem;
+  font-size: clamp(1rem, 1.6dvw, 1.6rem);
+  color: var(--cor-2);
+  background: var(--cor-1);
   border: none;
-  border-radius: 4px;
+  border-radius: .3rem;
   cursor: pointer;
+  transition: .3s ease-in-out;
 }
 
 button:hover {
-  background-color:red;
+  background: var(--cor-4);
 }
 
 #resultado {
-  margin-top: 20px;
+  margin: 3rem 0 0 0;
   text-align: left;
 }
