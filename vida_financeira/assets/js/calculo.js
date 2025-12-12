@@ -1,11 +1,19 @@
 const despesas = {
-  aluguel: 600.0,
+  casa: 569.81,
+  educacao: 313.50,
+  racao: 100.0,
+  alimentacao: 1000.0,
+  internet_celulares: 60.0,
+  mei: 80.90,
   agua: 40.0,
-  feira: 1000.0,
-  energia: 125.0,
-  racao: 95.0,
-  gas: 95.0,
-  investimentos: 1300.0,
+  gas: 105.0,
+  luz: 140.0,
+  transporte: 150.0,
+  consorcio: 0.0,
+  saude: 50.0,
+  lazer_diversos: 300.0,
+  investimento: 200.0,
+  emprestimo_cartao: 800.0,
 };
 
 const totalDespesas = Object.values(despesas).reduce((acc, valor) => acc + valor, 0);
